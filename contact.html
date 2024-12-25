@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tap Academy</title>
+    <link rel="icon" href="tap.png">
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="thetapacademy_logo.jpeg" alt="Tap Academy Logo">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="Courses.html">Courses</a>
+                <a href="student.html">Student Reviews</a>
+                <a href="hire.html">Hire From Us</a>
+                <a href="contact.html" class="active">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <h1>Contact Us</h1>
+            <h2>Get in touch</h2>
+            <p>We'd love to hear from you. Our friendly team is always here to chat.</p>
+        </section>
+
+        <section class="contact-info">
+            <div class="contact-info-container">
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>Phone</h3>
+                        <p>Mon-Fri from 8am to 5pm</p>
+                        <a href="tel:8069878321">8069878321</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Chat to us</h3>
+                        <p>Our friendly team is here to help</p>
+                        <a href="mailto:info@thetapacademy.com">info@thetapacademy.com</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Office</h3>
+                        <p>Come say hello at our office</p>
+                        <div class="office-addresses">
+                            <div class="address">
+                                <h4>BTM Branch:</h4>
+                                <p>Bldg 3, Outer Ring Rd,<br>
+                                BTM 2nd Stage, Kuvempu Nagar,<br>
+                                Stage 2, Bengaluru, Karnataka 560076</p>
+                            </div>
+                            <div class="address">
+                                <h4>Rajajinagar Branch:</h4>
+                                <p>103/1, BLK landmark, 1st floor,<br>
+                                2nd main road, Dr Rajkumar Road,<br>
+                                2nd block Rajajinagar, Bengaluru 560010</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-container">
+                    <h3>Enter your details</h3>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required pattern="[a-zA-Z]{2,20}" placeholder="Your name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required pattern="[6-9]{1}[0-9]{9}" placeholder="+91">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required placeholder="Your message"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8662044243!2d77.60805687533166!3d12.916319716087303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d6411bbb945%3A0x884e5e751a18bc1!2sTAP%20Academy%20BTM!5e0!3m2!1sen!2sin!4v1727077967001!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="tap.png" alt="Tap Academy">
+                <p>A Unit of Tap Ed Tech Private Limited</p>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Useful Links</h3>
+                <a href="index.html">Home</a>
+                <a href="student.html">Student Reviews</a>
+                <a href="hire.html">Hire From Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="footer-courses">
+                <h3>Course List</h3>
+                <a href="java.html">Full Stack Web Development (JAVA)</a>
+                <a href="DSA.html">Data Structures and Algorithms</a>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <h3>Follow us on</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/thetapacademy"><img src="Facebook-Logosu.png" alt="Facebook"></a>
+                <a href="https://www.linkedin.com/company/thetapacademy/"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/tapacademy.online/"><img src="insta.jpeg" alt="Instagram"></a>
+                <a href="https://www.youtube.com/tapacademy"><img src="youtube.jpeg" alt="YouTube"></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright © 2024 | Tap Academy</p>
+            <div class="footer-policies">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Refunds / Cancellations</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
